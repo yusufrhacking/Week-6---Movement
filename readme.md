@@ -38,7 +38,7 @@ https://docs.unity3d.com/ScriptReference/Rigidbody.html
 
 ### Bowser
 
-Build a simple game level with the following obstacles:
+Open the GameLevel folder and Scene. Build a simple game level with the following obstacles:
 
 1. Moving lasers (HINT: lasers can just be very skinny capsules / cyllinders)
 	* If you touch a laser, you go back to the start of the level.
