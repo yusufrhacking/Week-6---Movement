@@ -20,7 +20,7 @@ https://docs.unity3d.com/ScriptReference/Rigidbody.html
 
 ## Level
 
-1. Complete the 5 "Learning Units" in the Asset folder
+1. Complete the 5 "Learning Units" in the Assets folder
 	* In unit 01, your goal is to move the red cube to the left
 	* In units 02 - 05, your goal is to knock the blue cube off the stage
 	* In unit 04, you have a **SPECIAL** goal, which is to knock the blue cube off the stage, BUT leave the red cube ON the stage
