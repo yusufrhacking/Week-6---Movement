@@ -5,6 +5,7 @@ using UnityEngine;
 public class MoveObject01 : MonoBehaviour
 {
     [SerializeField] Vector3 moveDirection;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,8 @@ public class MoveObject01 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = transform.position;
+        // My position equals my position PLUS 
+	    // where I want to be by the end of this frame...
+        transform.position = transform.position + Vector3.zero;
     }
 }
