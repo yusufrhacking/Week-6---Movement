@@ -8,13 +8,15 @@ public class MoveObject04 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        //Set red cube weight to 2 and the blue cube weight to 0.05
+        //These balanced weights allowed it to stay on
     }
     
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = transform.position;
+        //Added + moveDirection for the same reasons as before
+        transform.position = transform.position + moveDirection;
     }
 }

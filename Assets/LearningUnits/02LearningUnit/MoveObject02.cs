@@ -8,13 +8,16 @@ public class MoveObject02 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        //Added this script and the other one to the red block
+        //Adding both scripts is important because the MoveObject script
+        //provides the force for RB02's force application
     }
     
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = transform.position;
+        //Added +moveDirection for the same reasons as Unit1
+        transform.position = (transform.position + moveDirection);
     }
 }

@@ -8,13 +8,15 @@ public class MoveObject03 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        //Balanced the masses of the the two objects so the forces worked
+        //Dropped blue, increased red
     }
     
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = transform.position;
+        //Added +moveDirection for same reasons as earlier;
+        transform.position = transform.position + moveDirection;
     }
 }

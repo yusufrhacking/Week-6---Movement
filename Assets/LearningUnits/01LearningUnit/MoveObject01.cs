@@ -15,6 +15,8 @@ public class MoveObject01 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = transform.position;
+        //ADDED + MOVE DIRECTION; this is necessary so the transform position
+        //updates each time with a new direction change
+        transform.position = transform.position + moveDirection;
     }
 }
